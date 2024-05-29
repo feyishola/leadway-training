@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roysha Money Transfer</title>
+    <style>
+           nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #333;
+            padding: 10px 20px;
+            color: white;
+        }
+        nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #ff7e5f;
+}
+
+nav .search-bar {
+    display: flex;
+    align-items: center;
+}
+
+nav .search-bar input {
+    padding: 5px;
+    font-size: 16px;
+    border: none;
+}
+
+nav .search-bar button {
+    background-color: #ff7e5f;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="classwork2.html">classwork2</a></li>
+                <li><a href="classwork3.html">classwork3</a></li>
+                <li><a href="classwork4.html">classwork4</a></li>
+                
+            </ul>
+            <div class="search-bar">
+                <input type="text" placeholder="Type to Search">
+                <button>Search</button>
+            </div>
+        </nav>
+        <div>
+            <div>
+                <img src="path/to/logo.png" alt="Roysha Logo">
+                <span>Roysha</span>
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Send Money</a></li>
+                <li><a href="#">Receive Money</a></li>
+                <li><a href="#">Pages</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div>
+                <h2>SIMPLE AND EASY WAY TO</h2>
+                <h1>Transfer Money Across World In Real Time With No Charge</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas.</p>
+                <button>Watch Video</button>
+            </div>
+            <div>
+                <form action="#">
+                    <label for="amount">Send Amount</label>
+                    <input type="text" id="amount" name="amount" value="$1000.00"> <span>
+                        <select>
+                            <option value="USD">USD</option>
+                            <option value="NGN">NGN</option>
+                            <option value="EUR">EUR</option>
+
+                        </select>
+                    </span>
+                    <label for="receiver-country">Receiver Country</label>
+                    <select id="receiver-country" name="receiver-country">
+                        <option>Select Country</option>
+                        <option value="nigeria" >NIgeria</option>
+                        <option value="eng" >England</option>
+
+                        <!-- Add more options as needed -->
+                    </select>
+                    <label for="delivery-type">Delivery Type</label>
+                    <select id="delivery-type" name="delivery-type">
+                        <option value="">Choose Delivery Type</option>
+                        <option value="">cash transfer</option>
+                        <option value="">pos</option>
+                        <!-- Add more options as needed -->
+                    </select>
+                    <button type="submit">Continue Transition</button>
+                    <p>By clicking continue, I agree with <a href="#">Terms & Policy</a></p>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
